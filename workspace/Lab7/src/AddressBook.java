@@ -10,6 +10,7 @@ public interface AddressBook {
        @param name the name of the person to look up
        @param key the name of the item to look up 
        @return the item value or null if not found
+       @author Thanh Truong
    */
    String get(String name, String key);
 
