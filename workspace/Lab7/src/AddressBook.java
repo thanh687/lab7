@@ -1,14 +1,8 @@
 import java.util.Iterator;
 
-/**
-   An address book for looking up information about people.
-*/
+
 public interface AddressBook {
 
-   /** 
-       Load the dictionary from a source.
-       @param sourceName the name of the source
-   */
    void load(String sourceName);
 
    /** 
